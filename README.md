@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# What is this react app?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+this is a demo of different animations.
+
+1. Using React useRef
+2. GSAP
+3. 3JS
 
 ## How to run the app
 
