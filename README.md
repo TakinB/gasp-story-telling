@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 # Using React useRef
 
 ## Demo:
-![Demo](public/sand writing.gif)
+![Demo]([public/sand writing.gif](https://github.com/TakinB/sand-writing-animation/blob/main/public/sand%20writing.gif))
 ## Creating components from svg file.
 
 Design your SVG graphics in Illustrator and name your layers, group them accordingly as the groups will be the class name.
