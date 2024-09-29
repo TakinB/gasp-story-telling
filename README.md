@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 # Using React useRef
 
 ## Demo:
-
+![Demo](public/sand writing.gif)
 ## Creating components from svg file.
 
 Design your SVG graphics in Illustrator and name your layers, group them accordingly as the groups will be the class name.
