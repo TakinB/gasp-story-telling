@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import PulseCircle from "./modules/PulseCircle";
-import DummyText from "./modules/DummyText";
-import Bigben from "./modules/Bigben";
+import PulseCircle from "./components/PulseCircle";
+import DummyText from "./components/DummyText";
+import Bigben from "./components/Bigben";
+import Snowflake from "./components/Snowflake";
 
 // Usage
 function App() {
@@ -9,7 +10,9 @@ function App() {
   const sectionTwoRef = useRef();
   const sectionThreeRef = useRef();
   const sectionFourRef = useRef();
-
+  const snowflakes = Array.from({ length: 100 }, (_, i) => (
+    <Snowflake key={i} />
+  ));
   // const onScreenSectionOne = useOnScreen(sectionOneRef, "-10%");
   const onScreenSectionTwo = useOnScreen(sectionTwoRef, "-10%");
   // const onScreenSectionThree = useOnScreen(sectionThreeRef, "-50%");
@@ -26,6 +29,7 @@ function App() {
         }}
       >
         <DummyText text="Imagine it's 1868, London ..." />
+        {snowflakes}
       </div>
 
       <div className="section-three" ref={sectionThreeRef}>
